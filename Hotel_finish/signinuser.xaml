@@ -1,0 +1,22 @@
+﻿<Page x:Class="Hotel_finish.signinuser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hotel_finish"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="signinuser" Background="White">
+
+    <Grid>
+        <Label Content="ID" FontSize="25" HorizontalAlignment="Left" Margin="41,101,0,0" VerticalAlignment="Top" Height="49" Width="151"/>
+        <Label Content="Username" FontSize="25" HorizontalAlignment="Left" Margin="41,176,0,0" VerticalAlignment="Top" Height="49" Width="151"/>
+        <Label Content="Password" FontSize="25" HorizontalAlignment="Left" Margin="41,246,0,0" VerticalAlignment="Top" Height="49" Width="151"/>
+
+        <TextBox HorizontalAlignment="Left" Margin="192,113,0,0" TextWrapping="Wrap" Name="Uidtxt" VerticalAlignment="Top" Width="324" Height="37"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,188,0,0" TextWrapping="Wrap" x:Name="Unametxt" VerticalAlignment="Top" Width="324" Height="37"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,252,0,0" TextWrapping="Wrap" x:Name="Upassdtxt" VerticalAlignment="Top" Width="324" Height="37"/>
+        <Button Content="Reservation" FontSize="30" HorizontalAlignment="Left" Margin="192,342,0,0" VerticalAlignment="Top" Height="51" Width="354" Click="Button_Click" />
+
+    </Grid>
+</Page>

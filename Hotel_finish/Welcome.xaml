@@ -1,0 +1,20 @@
+﻿<Page x:Class="Hotel_finish.Welcome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hotel_finish"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Welcome" Background="White">
+
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="571,69,0,0" VerticalAlignment="Top" Width="195" Height="88" Name="combo">
+
+            <ComboBoxItem>Guest</ComboBoxItem>
+            <ComboBoxItem>Employee</ComboBoxItem>
+        </ComboBox>
+        <Button Content="sign in" FontSize="20" HorizontalAlignment="Left" Margin="474,287,0,0" VerticalAlignment="Top" Height="73" Width="190" Click="Button_Click"/>
+        <Button Content="Create new guest" FontSize="20" HorizontalAlignment="Left" Margin="138,290,0,0" VerticalAlignment="Top" Height="73" Width="190" Click="Button_Click_1"/>
+    </Grid>
+</Page>
